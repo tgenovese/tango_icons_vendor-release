@@ -1,4 +1,4 @@
-From cbaa1ba29aaa2195e7d53a8277e3f298fe99415a Mon Sep 17 00:00:00 2001
+From 28290d79f09e96e6c66cef5fd08af29067de62ef Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Thu, 29 Apr 2021 12:06:34 -0700
 Subject: [PATCH] Always bundle icons on RHEL 8
@@ -25,7 +25,7 @@ index 49bcb74..2c0fb57 100644
    <test_depend>ament_lint_common</test_depend>
  
 diff --git a/rpm/ros-galactic-tango-icons-vendor.spec b/rpm/ros-galactic-tango-icons-vendor.spec
-index 0c24a5a..d57f46b 100644
+index 91d5222..45a7c10 100644
 --- a/rpm/ros-galactic-tango-icons-vendor.spec
 +++ b/rpm/ros-galactic-tango-icons-vendor.spec
 @@ -46,6 +46,7 @@ mkdir -p obj-%{_target_platform} && cd obj-%{_target_platform}
@@ -37,5 +37,5 @@ index 0c24a5a..d57f46b 100644
  
  %make_build
 -- 
-2.30.2
+2.33.1
 
