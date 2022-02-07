@@ -1,0 +1,12 @@
+Source: ros-foxy-tango-icons-vendor
+Section: misc
+Priority: optional
+Maintainer: Alejandro Hernandez <alejandro@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-common, ros-foxy-ros-workspace
+Homepage: http://ros.org/wiki/qt_gui_icons
+Standards-Version: 3.9.2
+
+Package: ros-foxy-tango-icons-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, tango-icon-theme, ros-foxy-ros-workspace
+Description: tango_icons_vendor provides the public domain Tango icons for non-linux systems (Tango Icon Library) from the Tango Desktop Project
