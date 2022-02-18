@@ -1,3 +1,26 @@
+## tango_icons_vendor (rolling) - 0.1.0-5
+
+The packages in the `tango_icons_vendor` repository were released into the `rolling` distro by running `/home/steven/osrf/bloom/.direnv/python-3.10.2/bin/bloom-release -r rolling tango_icons_vendor` on `Fri, 18 Feb 2022 19:15:38 -0000`
+
+The `tango_icons_vendor` package was released.
+
+Version of package(s) in repository `tango_icons_vendor`:
+
+- upstream repository: https://github.com/ros-visualization/tango_icons_vendor.git
+- release repository: https://github.com/ros2-gbp/tango_icons_vendor-release.git
+- rosdistro version: `0.1.0-4`
+- old version: `0.1.0-4`
+- new version: `0.1.0-5`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## tango_icons_vendor (foxy) - 0.1.0-1
 
 The packages in the `tango_icons_vendor` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy tango_icons_vendor` on `Mon, 07 Feb 2022 19:58:27 -0000`
