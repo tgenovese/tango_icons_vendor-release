@@ -47,7 +47,6 @@ mkdir -p obj-%{_target_platform} && cd obj-%{_target_platform}
     -DAMENT_PREFIX_PATH="/opt/ros/rolling" \
     -DCMAKE_PREFIX_PATH="/opt/ros/rolling" \
     -DSETUPTOOLS_DEB_LAYOUT=OFF \
-    -DINSTALL_TANGO_ICONS=ON \
     ..
 
 %make_build
