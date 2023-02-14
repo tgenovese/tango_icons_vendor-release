@@ -2,6 +2,11 @@
 Changelog for package tango_icons_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2023-02-14)
+------------------
+* [rolling] Update maintainers - 2022-11-07 (`#10 <https://github.com/ros-visualization/tango_icons_vendor/issues/10>`_)
+* Contributors: Audrow Nash
+
 0.2.1 (2022-09-13)
 ------------------
 * Mirror rolling to master
