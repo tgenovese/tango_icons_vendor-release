@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:tgenovese/tango_icons_vendor-release.git
 tracks:
   foxy:
     actions:
